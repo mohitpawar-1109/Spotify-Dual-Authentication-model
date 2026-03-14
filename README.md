@@ -8,12 +8,13 @@ This project demonstrates how streaming platforms manage **authentication, music
 
 # 🚀 Features
 
-* 🔐 **Dual Authentication System**
+- 🔐 **Secure Authentication System**
 
-  * User registration
-  * Login & logout
-  * JWT-based authentication
-  * Token stored in HTTP cookies
+  - User registration
+  - Login & logout
+  - Password hashing using **bcrypt**
+  - JWT-based authentication
+  - Token stored in **HTTP cookies**
 
 * 🛡 **Protected Routes**
 
@@ -58,8 +59,9 @@ Database
 
 Authentication
 
-* JWT (jsonwebtoken)
-* Cookie-based authentication
+- bcrypt (password hashing)
+- JWT (jsonwebtoken)
+- Cookie-based authentication
 
 File Upload
 
